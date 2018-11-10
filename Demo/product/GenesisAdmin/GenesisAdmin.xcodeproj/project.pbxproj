@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1081D91CA0D24300326F8B /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1081D71CA0D24300326F8B /* ProductDetailViewController.m */; };
+		CA1081DA1CA0D24300326F8B /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1081D81CA0D24300326F8B /* ProductDetailViewController.xib */; };
+		CA10D6B41CFFBFB800601881 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA10D6B31CFFBFB800601881 /* ProductCell.m */; };
+		CA10D6B61CFFBFE500601881 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA10D6B51CFFBFE500601881 /* ProductCell.xib */; };
+		CA1332921D011C1200F5A9A0 /* ProductImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1332911D011C1200F5A9A0 /* ProductImageViewController.m */; };
+		CAA6A15F1CB5F56100754FE3 /* ProductImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA6A15E1CB5F56100754FE3 /* ProductImageStore.m */; };
+		CAC47C031C93EEEF005AB3CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C021C93EEEF005AB3CC /* main.m */; };
+		CAC47C061C93EEEF005AB3CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C051C93EEEF005AB3CC /* AppDelegate.m */; };
+		CAC47C0E1C93EEEF005AB3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC47C0D1C93EEEF005AB3CC /* Assets.xcassets */; };
+		CAC47C111C93EEEF005AB3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC47C0F1C93EEEF005AB3CC /* LaunchScreen.storyboard */; };
+		CAC47C1C1C93EEEF005AB3CC /* GenesisAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C1B1C93EEEF005AB3CC /* GenesisAdminTests.m */; };
+		CAC47C271C93EEEF005AB3CC /* GenesisAdminUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C261C93EEEF005AB3CC /* GenesisAdminUITests.m */; };
+		CAC47C3A1C93F03B005AB3CC /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C391C93F03B005AB3CC /* ProductsViewController.m */; };
+		CAC47C401C93F2AC005AB3CC /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C3F1C93F2AC005AB3CC /* Product.m */; };
+		CAC47C431C93FA2E005AB3CC /* ProductsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C421C93FA2E005AB3CC /* ProductsStore.m */; };
+		CAC47C471C94120D005AB3CC /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC47C461C94120D005AB3CC /* DateUtil.m */; };
+		CAFC808F1C9F90AF002283A5 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAFC808E1C9F90AF002283A5 /* HeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC47C181C93EEEF005AB3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC47BF61C93EEEE005AB3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC47BFD1C93EEEE005AB3CC;
+			remoteInfo = GenesisAdmin;
+		};
+		CAC47C231C93EEEF005AB3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC47BF61C93EEEE005AB3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC47BFD1C93EEEE005AB3CC;
+			remoteInfo = GenesisAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1081D61CA0D24300326F8B /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductDetailViewController.h; path = Controllers/ProductDetailViewController.h; sourceTree = "<group>"; };
+		CA1081D71CA0D24300326F8B /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductDetailViewController.m; path = Controllers/ProductDetailViewController.m; sourceTree = "<group>"; };
+		CA1081D81CA0D24300326F8B /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductDetailViewController.xib; path = Controllers/ProductDetailViewController.xib; sourceTree = "<group>"; };
+		CA10D6B21CFFBFB800601881 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductCell.h; path = Models/ProductCell.h; sourceTree = "<group>"; };
+		CA10D6B31CFFBFB800601881 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductCell.m; path = Models/ProductCell.m; sourceTree = "<group>"; };
+		CA10D6B51CFFBFE500601881 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCell.xib; path = Models/ProductCell.xib; sourceTree = "<group>"; };
+		CA1332901D011C1200F5A9A0 /* ProductImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductImageViewController.h; path = Controllers/ProductImageViewController.h; sourceTree = "<group>"; };
+		CA1332911D011C1200F5A9A0 /* ProductImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductImageViewController.m; path = Controllers/ProductImageViewController.m; sourceTree = "<group>"; };
+		CAA6A15D1CB5F56100754FE3 /* ProductImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductImageStore.h; path = Models/ProductImageStore.h; sourceTree = "<group>"; };
+		CAA6A15E1CB5F56100754FE3 /* ProductImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductImageStore.m; path = Models/ProductImageStore.m; sourceTree = "<group>"; };
+		CAC47BFE1C93EEEF005AB3CC /* GenesisAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenesisAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC47C021C93EEEF005AB3CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAC47C041C93EEEF005AB3CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAC47C051C93EEEF005AB3CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAC47C0D1C93EEEF005AB3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC47C101C93EEEF005AB3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAC47C121C93EEEF005AB3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC47C171C93EEEF005AB3CC /* GenesisAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesisAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC47C1B1C93EEEF005AB3CC /* GenesisAdminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenesisAdminTests.m; sourceTree = "<group>"; };
+		CAC47C1D1C93EEEF005AB3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC47C221C93EEEF005AB3CC /* GenesisAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesisAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC47C261C93EEEF005AB3CC /* GenesisAdminUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenesisAdminUITests.m; sourceTree = "<group>"; };
+		CAC47C281C93EEEF005AB3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC47C381C93F03B005AB3CC /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductsViewController.h; path = Controllers/ProductsViewController.h; sourceTree = "<group>"; };
+		CAC47C391C93F03B005AB3CC /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductsViewController.m; path = Controllers/ProductsViewController.m; sourceTree = "<group>"; };
+		CAC47C3E1C93F2AC005AB3CC /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = Models/Product.h; sourceTree = "<group>"; };
+		CAC47C3F1C93F2AC005AB3CC /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = Models/Product.m; sourceTree = "<group>"; };
+		CAC47C411C93FA2E005AB3CC /* ProductsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductsStore.h; path = Models/ProductsStore.h; sourceTree = "<group>"; };
+		CAC47C421C93FA2E005AB3CC /* ProductsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductsStore.m; path = Models/ProductsStore.m; sourceTree = "<group>"; };
+		CAC47C451C94120D005AB3CC /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateUtil.h; path = Utilities/DateUtil.h; sourceTree = "<group>"; };
+		CAC47C461C94120D005AB3CC /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateUtil.m; path = Utilities/DateUtil.m; sourceTree = "<group>"; };
+		CAFC808E1C9F90AF002283A5 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = Xibs/HeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC47BFB1C93EEEE005AB3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47C141C93EEEF005AB3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47C1F1C93EEEF005AB3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC47BF51C93EEEE005AB3CC = {
+			isa = PBXGroup;
+			children = (
+				CAC47C001C93EEEF005AB3CC /* GenesisAdmin */,
+				CAC47C1A1C93EEEF005AB3CC /* GenesisAdminTests */,
+				CAC47C251C93EEEF005AB3CC /* GenesisAdminUITests */,
+				CAC47BFF1C93EEEF005AB3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC47BFF1C93EEEF005AB3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47BFE1C93EEEF005AB3CC /* GenesisAdmin.app */,
+				CAC47C171C93EEEF005AB3CC /* GenesisAdminTests.xctest */,
+				CAC47C221C93EEEF005AB3CC /* GenesisAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC47C001C93EEEF005AB3CC /* GenesisAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC80871C9F877E002283A5 /* Xibs */,
+				CAC47C441C9411EA005AB3CC /* Utilities */,
+				CAC47C3B1C93F0B4005AB3CC /* Models */,
+				CAC47C341C93EF95005AB3CC /* Controllers */,
+				CAC47C041C93EEEF005AB3CC /* AppDelegate.h */,
+				CAC47C051C93EEEF005AB3CC /* AppDelegate.m */,
+				CAC47C0D1C93EEEF005AB3CC /* Assets.xcassets */,
+				CAC47C0F1C93EEEF005AB3CC /* LaunchScreen.storyboard */,
+				CAC47C121C93EEEF005AB3CC /* Info.plist */,
+				CAC47C011C93EEEF005AB3CC /* Supporting Files */,
+			);
+			path = GenesisAdmin;
+			sourceTree = "<group>";
+		};
+		CAC47C011C93EEEF005AB3CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47C021C93EEEF005AB3CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAC47C1A1C93EEEF005AB3CC /* GenesisAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47C1B1C93EEEF005AB3CC /* GenesisAdminTests.m */,
+				CAC47C1D1C93EEEF005AB3CC /* Info.plist */,
+			);
+			path = GenesisAdminTests;
+			sourceTree = "<group>";
+		};
+		CAC47C251C93EEEF005AB3CC /* GenesisAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47C261C93EEEF005AB3CC /* GenesisAdminUITests.m */,
+				CAC47C281C93EEEF005AB3CC /* Info.plist */,
+			);
+			path = GenesisAdminUITests;
+			sourceTree = "<group>";
+		};
+		CAC47C341C93EF95005AB3CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47C381C93F03B005AB3CC /* ProductsViewController.h */,
+				CAC47C391C93F03B005AB3CC /* ProductsViewController.m */,
+				CA1081D61CA0D24300326F8B /* ProductDetailViewController.h */,
+				CA1081D71CA0D24300326F8B /* ProductDetailViewController.m */,
+				CA1081D81CA0D24300326F8B /* ProductDetailViewController.xib */,
+				CA1332901D011C1200F5A9A0 /* ProductImageViewController.h */,
+				CA1332911D011C1200F5A9A0 /* ProductImageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CAC47C3B1C93F0B4005AB3CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47C3E1C93F2AC005AB3CC /* Product.h */,
+				CAC47C3F1C93F2AC005AB3CC /* Product.m */,
+				CAC47C411C93FA2E005AB3CC /* ProductsStore.h */,
+				CAC47C421C93FA2E005AB3CC /* ProductsStore.m */,
+				CAA6A15D1CB5F56100754FE3 /* ProductImageStore.h */,
+				CAA6A15E1CB5F56100754FE3 /* ProductImageStore.m */,
+				CA10D6B21CFFBFB800601881 /* ProductCell.h */,
+				CA10D6B31CFFBFB800601881 /* ProductCell.m */,
+				CA10D6B51CFFBFE500601881 /* ProductCell.xib */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CAC47C441C9411EA005AB3CC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CAC47C451C94120D005AB3CC /* DateUtil.h */,
+				CAC47C461C94120D005AB3CC /* DateUtil.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CAFC80871C9F877E002283A5 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC808E1C9F90AF002283A5 /* HeaderView.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC47BFD1C93EEEE005AB3CC /* GenesisAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC47C2B1C93EEEF005AB3CC /* Build configuration list for PBXNativeTarget "GenesisAdmin" */;
+			buildPhases = (
+				CAC47BFA1C93EEEE005AB3CC /* Sources */,
+				CAC47BFB1C93EEEE005AB3CC /* Frameworks */,
+				CAC47BFC1C93EEEE005AB3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenesisAdmin;
+			productName = GenesisAdmin;
+			productReference = CAC47BFE1C93EEEF005AB3CC /* GenesisAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAC47C161C93EEEF005AB3CC /* GenesisAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC47C2E1C93EEEF005AB3CC /* Build configuration list for PBXNativeTarget "GenesisAdminTests" */;
+			buildPhases = (
+				CAC47C131C93EEEF005AB3CC /* Sources */,
+				CAC47C141C93EEEF005AB3CC /* Frameworks */,
+				CAC47C151C93EEEF005AB3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC47C191C93EEEF005AB3CC /* PBXTargetDependency */,
+			);
+			name = GenesisAdminTests;
+			productName = GenesisAdminTests;
+			productReference = CAC47C171C93EEEF005AB3CC /* GenesisAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAC47C211C93EEEF005AB3CC /* GenesisAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC47C311C93EEEF005AB3CC /* Build configuration list for PBXNativeTarget "GenesisAdminUITests" */;
+			buildPhases = (
+				CAC47C1E1C93EEEF005AB3CC /* Sources */,
+				CAC47C1F1C93EEEF005AB3CC /* Frameworks */,
+				CAC47C201C93EEEF005AB3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC47C241C93EEEF005AB3CC /* PBXTargetDependency */,
+			);
+			name = GenesisAdminUITests;
+			productName = GenesisAdminUITests;
+			productReference = CAC47C221C93EEEF005AB3CC /* GenesisAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC47BF61C93EEEE005AB3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Genesis;
+				TargetAttributes = {
+					CAC47BFD1C93EEEE005AB3CC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T8X35L3UCB;
+					};
+					CAC47C161C93EEEF005AB3CC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CAC47BFD1C93EEEE005AB3CC;
+					};
+					CAC47C211C93EEEF005AB3CC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CAC47BFD1C93EEEE005AB3CC;
+					};
+				};
+			};
+			buildConfigurationList = CAC47BF91C93EEEE005AB3CC /* Build configuration list for PBXProject "GenesisAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC47BF51C93EEEE005AB3CC;
+			productRefGroup = CAC47BFF1C93EEEF005AB3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC47BFD1C93EEEE005AB3CC /* GenesisAdmin */,
+				CAC47C161C93EEEF005AB3CC /* GenesisAdminTests */,
+				CAC47C211C93EEEF005AB3CC /* GenesisAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC47BFC1C93EEEE005AB3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC47C111C93EEEF005AB3CC /* LaunchScreen.storyboard in Resources */,
+				CAC47C0E1C93EEEF005AB3CC /* Assets.xcassets in Resources */,
+				CA10D6B61CFFBFE500601881 /* ProductCell.xib in Resources */,
+				CAFC808F1C9F90AF002283A5 /* HeaderView.xib in Resources */,
+				CA1081DA1CA0D24300326F8B /* ProductDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47C151C93EEEF005AB3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47C201C93EEEF005AB3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC47BFA1C93EEEE005AB3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC47C431C93FA2E005AB3CC /* ProductsStore.m in Sources */,
+				CAC47C401C93F2AC005AB3CC /* Product.m in Sources */,
+				CAC47C471C94120D005AB3CC /* DateUtil.m in Sources */,
+				CAC47C061C93EEEF005AB3CC /* AppDelegate.m in Sources */,
+				CA1081D91CA0D24300326F8B /* ProductDetailViewController.m in Sources */,
+				CA10D6B41CFFBFB800601881 /* ProductCell.m in Sources */,
+				CA1332921D011C1200F5A9A0 /* ProductImageViewController.m in Sources */,
+				CAC47C031C93EEEF005AB3CC /* main.m in Sources */,
+				CAC47C3A1C93F03B005AB3CC /* ProductsViewController.m in Sources */,
+				CAA6A15F1CB5F56100754FE3 /* ProductImageStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47C131C93EEEF005AB3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC47C1C1C93EEEF005AB3CC /* GenesisAdminTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47C1E1C93EEEF005AB3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC47C271C93EEEF005AB3CC /* GenesisAdminUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC47C191C93EEEF005AB3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC47BFD1C93EEEE005AB3CC /* GenesisAdmin */;
+			targetProxy = CAC47C181C93EEEF005AB3CC /* PBXContainerItemProxy */;
+		};
+		CAC47C241C93EEEF005AB3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC47BFD1C93EEEE005AB3CC /* GenesisAdmin */;
+			targetProxy = CAC47C231C93EEEF005AB3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAC47C0F1C93EEEF005AB3CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC47C101C93EEEF005AB3CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC47C291C93EEEF005AB3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAC47C2A1C93EEEF005AB3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC47C2C1C93EEEF005AB3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GenesisAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAC47C2D1C93EEEF005AB3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GenesisAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAC47C2F1C93EEEF005AB3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenesisAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesisAdmin.app/GenesisAdmin";
+			};
+			name = Debug;
+		};
+		CAC47C301C93EEEF005AB3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenesisAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesisAdmin.app/GenesisAdmin";
+			};
+			name = Release;
+		};
+		CAC47C321C93EEEF005AB3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenesisAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GenesisAdmin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAC47C331C93EEEF005AB3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenesisAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GenesisAdmin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC47BF91C93EEEE005AB3CC /* Build configuration list for PBXProject "GenesisAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC47C291C93EEEF005AB3CC /* Debug */,
+				CAC47C2A1C93EEEF005AB3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC47C2B1C93EEEF005AB3CC /* Build configuration list for PBXNativeTarget "GenesisAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC47C2C1C93EEEF005AB3CC /* Debug */,
+				CAC47C2D1C93EEEF005AB3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC47C2E1C93EEEF005AB3CC /* Build configuration list for PBXNativeTarget "GenesisAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC47C2F1C93EEEF005AB3CC /* Debug */,
+				CAC47C301C93EEEF005AB3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC47C311C93EEEF005AB3CC /* Build configuration list for PBXNativeTarget "GenesisAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC47C321C93EEEF005AB3CC /* Debug */,
+				CAC47C331C93EEEF005AB3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC47BF61C93EEEE005AB3CC /* Project object */;
+}
