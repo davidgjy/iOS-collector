@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3B37EE1C86B660008BCE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B37ED1C86B660008BCE3C /* main.m */; };
+		CA3B37F11C86B660008BCE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B37F01C86B660008BCE3C /* AppDelegate.m */; };
+		CA3B37F41C86B660008BCE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B37F31C86B660008BCE3C /* ViewController.m */; };
+		CA3B37F71C86B660008BCE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3B37F51C86B660008BCE3C /* Main.storyboard */; };
+		CA3B37F91C86B660008BCE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3B37F81C86B660008BCE3C /* Assets.xcassets */; };
+		CA3B37FC1C86B660008BCE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3B37FA1C86B660008BCE3C /* LaunchScreen.storyboard */; };
+		CA3B38071C86B660008BCE3C /* GenesisOriginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B38061C86B660008BCE3C /* GenesisOriginTests.m */; };
+		CA3B38121C86B660008BCE3C /* GenesisOriginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B38111C86B660008BCE3C /* GenesisOriginUITests.m */; };
+		CA3B38241C86B8D9008BCE3C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B38221C86B8D9008BCE3C /* HomeViewController.m */; };
+		CA3B38251C86B8D9008BCE3C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3B38231C86B8D9008BCE3C /* HomeViewController.xib */; };
+		CA3B38291C86B949008BCE3C /* Channel1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B38271C86B949008BCE3C /* Channel1ViewController.m */; };
+		CA3B382A1C86B949008BCE3C /* Channel1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3B38281C86B949008BCE3C /* Channel1ViewController.xib */; };
+		CA3B382E1C86BB48008BCE3C /* Channel2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B382C1C86BB48008BCE3C /* Channel2ViewController.m */; };
+		CA3B382F1C86BB48008BCE3C /* Channel2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3B382D1C86BB48008BCE3C /* Channel2ViewController.xib */; };
+		CA3B38331C86BB61008BCE3C /* Channel3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B38311C86BB61008BCE3C /* Channel3ViewController.m */; };
+		CA3B38341C86BB61008BCE3C /* Channel3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3B38321C86BB61008BCE3C /* Channel3ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3B38031C86B660008BCE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3B37E11C86B660008BCE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3B37E81C86B660008BCE3C;
+			remoteInfo = GenesisOrigin;
+		};
+		CA3B380E1C86B660008BCE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3B37E11C86B660008BCE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3B37E81C86B660008BCE3C;
+			remoteInfo = GenesisOrigin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3B37E91C86B660008BCE3C /* GenesisOrigin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenesisOrigin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3B37ED1C86B660008BCE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA3B37EF1C86B660008BCE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA3B37F01C86B660008BCE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA3B37F21C86B660008BCE3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA3B37F31C86B660008BCE3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA3B37F61C86B660008BCE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA3B37F81C86B660008BCE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3B37FB1C86B660008BCE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3B37FD1C86B660008BCE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3B38021C86B660008BCE3C /* GenesisOriginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesisOriginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3B38061C86B660008BCE3C /* GenesisOriginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenesisOriginTests.m; sourceTree = "<group>"; };
+		CA3B38081C86B660008BCE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3B380D1C86B660008BCE3C /* GenesisOriginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesisOriginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3B38111C86B660008BCE3C /* GenesisOriginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenesisOriginUITests.m; sourceTree = "<group>"; };
+		CA3B38131C86B660008BCE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3B38211C86B8D9008BCE3C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Channels/HomeViewController.h; sourceTree = "<group>"; };
+		CA3B38221C86B8D9008BCE3C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Channels/HomeViewController.m; sourceTree = "<group>"; };
+		CA3B38231C86B8D9008BCE3C /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Channels/HomeViewController.xib; sourceTree = "<group>"; };
+		CA3B38261C86B949008BCE3C /* Channel1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Channel1ViewController.h; path = Channels/Channel1ViewController.h; sourceTree = "<group>"; };
+		CA3B38271C86B949008BCE3C /* Channel1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Channel1ViewController.m; path = Channels/Channel1ViewController.m; sourceTree = "<group>"; };
+		CA3B38281C86B949008BCE3C /* Channel1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Channel1ViewController.xib; path = Channels/Channel1ViewController.xib; sourceTree = "<group>"; };
+		CA3B382B1C86BB48008BCE3C /* Channel2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Channel2ViewController.h; path = Channels/Channel2ViewController.h; sourceTree = "<group>"; };
+		CA3B382C1C86BB48008BCE3C /* Channel2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Channel2ViewController.m; path = Channels/Channel2ViewController.m; sourceTree = "<group>"; };
+		CA3B382D1C86BB48008BCE3C /* Channel2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Channel2ViewController.xib; path = Channels/Channel2ViewController.xib; sourceTree = "<group>"; };
+		CA3B38301C86BB61008BCE3C /* Channel3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Channel3ViewController.h; path = Channels/Channel3ViewController.h; sourceTree = "<group>"; };
+		CA3B38311C86BB61008BCE3C /* Channel3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Channel3ViewController.m; path = Channels/Channel3ViewController.m; sourceTree = "<group>"; };
+		CA3B38321C86BB61008BCE3C /* Channel3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Channel3ViewController.xib; path = Channels/Channel3ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3B37E61C86B660008BCE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3B37FF1C86B660008BCE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3B380A1C86B660008BCE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3B37E01C86B660008BCE3C = {
+			isa = PBXGroup;
+			children = (
+				CA3B37EB1C86B660008BCE3C /* GenesisOrigin */,
+				CA3B38051C86B660008BCE3C /* GenesisOriginTests */,
+				CA3B38101C86B660008BCE3C /* GenesisOriginUITests */,
+				CA3B37EA1C86B660008BCE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3B37EA1C86B660008BCE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B37E91C86B660008BCE3C /* GenesisOrigin.app */,
+				CA3B38021C86B660008BCE3C /* GenesisOriginTests.xctest */,
+				CA3B380D1C86B660008BCE3C /* GenesisOriginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3B37EB1C86B660008BCE3C /* GenesisOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B38201C86B8BD008BCE3C /* Channels */,
+				CA3B37EF1C86B660008BCE3C /* AppDelegate.h */,
+				CA3B37F01C86B660008BCE3C /* AppDelegate.m */,
+				CA3B37F21C86B660008BCE3C /* ViewController.h */,
+				CA3B37F31C86B660008BCE3C /* ViewController.m */,
+				CA3B37F51C86B660008BCE3C /* Main.storyboard */,
+				CA3B37F81C86B660008BCE3C /* Assets.xcassets */,
+				CA3B37FA1C86B660008BCE3C /* LaunchScreen.storyboard */,
+				CA3B37FD1C86B660008BCE3C /* Info.plist */,
+				CA3B37EC1C86B660008BCE3C /* Supporting Files */,
+			);
+			path = GenesisOrigin;
+			sourceTree = "<group>";
+		};
+		CA3B37EC1C86B660008BCE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B37ED1C86B660008BCE3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA3B38051C86B660008BCE3C /* GenesisOriginTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B38061C86B660008BCE3C /* GenesisOriginTests.m */,
+				CA3B38081C86B660008BCE3C /* Info.plist */,
+			);
+			path = GenesisOriginTests;
+			sourceTree = "<group>";
+		};
+		CA3B38101C86B660008BCE3C /* GenesisOriginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B38111C86B660008BCE3C /* GenesisOriginUITests.m */,
+				CA3B38131C86B660008BCE3C /* Info.plist */,
+			);
+			path = GenesisOriginUITests;
+			sourceTree = "<group>";
+		};
+		CA3B38201C86B8BD008BCE3C /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B38211C86B8D9008BCE3C /* HomeViewController.h */,
+				CA3B38221C86B8D9008BCE3C /* HomeViewController.m */,
+				CA3B38231C86B8D9008BCE3C /* HomeViewController.xib */,
+				CA3B38261C86B949008BCE3C /* Channel1ViewController.h */,
+				CA3B38271C86B949008BCE3C /* Channel1ViewController.m */,
+				CA3B38281C86B949008BCE3C /* Channel1ViewController.xib */,
+				CA3B382B1C86BB48008BCE3C /* Channel2ViewController.h */,
+				CA3B382C1C86BB48008BCE3C /* Channel2ViewController.m */,
+				CA3B382D1C86BB48008BCE3C /* Channel2ViewController.xib */,
+				CA3B38301C86BB61008BCE3C /* Channel3ViewController.h */,
+				CA3B38311C86BB61008BCE3C /* Channel3ViewController.m */,
+				CA3B38321C86BB61008BCE3C /* Channel3ViewController.xib */,
+			);
+			name = Channels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3B37E81C86B660008BCE3C /* GenesisOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3B38161C86B660008BCE3C /* Build configuration list for PBXNativeTarget "GenesisOrigin" */;
+			buildPhases = (
+				CA3B37E51C86B660008BCE3C /* Sources */,
+				CA3B37E61C86B660008BCE3C /* Frameworks */,
+				CA3B37E71C86B660008BCE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenesisOrigin;
+			productName = GenesisOrigin;
+			productReference = CA3B37E91C86B660008BCE3C /* GenesisOrigin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3B38011C86B660008BCE3C /* GenesisOriginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3B38191C86B660008BCE3C /* Build configuration list for PBXNativeTarget "GenesisOriginTests" */;
+			buildPhases = (
+				CA3B37FE1C86B660008BCE3C /* Sources */,
+				CA3B37FF1C86B660008BCE3C /* Frameworks */,
+				CA3B38001C86B660008BCE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3B38041C86B660008BCE3C /* PBXTargetDependency */,
+			);
+			name = GenesisOriginTests;
+			productName = GenesisOriginTests;
+			productReference = CA3B38021C86B660008BCE3C /* GenesisOriginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3B380C1C86B660008BCE3C /* GenesisOriginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3B381C1C86B660008BCE3C /* Build configuration list for PBXNativeTarget "GenesisOriginUITests" */;
+			buildPhases = (
+				CA3B38091C86B660008BCE3C /* Sources */,
+				CA3B380A1C86B660008BCE3C /* Frameworks */,
+				CA3B380B1C86B660008BCE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3B380F1C86B660008BCE3C /* PBXTargetDependency */,
+			);
+			name = GenesisOriginUITests;
+			productName = GenesisOriginUITests;
+			productReference = CA3B380D1C86B660008BCE3C /* GenesisOriginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3B37E11C86B660008BCE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Genesis;
+				TargetAttributes = {
+					CA3B37E81C86B660008BCE3C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CA3B38011C86B660008BCE3C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA3B37E81C86B660008BCE3C;
+					};
+					CA3B380C1C86B660008BCE3C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA3B37E81C86B660008BCE3C;
+					};
+				};
+			};
+			buildConfigurationList = CA3B37E41C86B660008BCE3C /* Build configuration list for PBXProject "GenesisOrigin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3B37E01C86B660008BCE3C;
+			productRefGroup = CA3B37EA1C86B660008BCE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3B37E81C86B660008BCE3C /* GenesisOrigin */,
+				CA3B38011C86B660008BCE3C /* GenesisOriginTests */,
+				CA3B380C1C86B660008BCE3C /* GenesisOriginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3B37E71C86B660008BCE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3B38341C86BB61008BCE3C /* Channel3ViewController.xib in Resources */,
+				CA3B382A1C86B949008BCE3C /* Channel1ViewController.xib in Resources */,
+				CA3B37FC1C86B660008BCE3C /* LaunchScreen.storyboard in Resources */,
+				CA3B37F91C86B660008BCE3C /* Assets.xcassets in Resources */,
+				CA3B37F71C86B660008BCE3C /* Main.storyboard in Resources */,
+				CA3B38251C86B8D9008BCE3C /* HomeViewController.xib in Resources */,
+				CA3B382F1C86BB48008BCE3C /* Channel2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3B38001C86B660008BCE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3B380B1C86B660008BCE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3B37E51C86B660008BCE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3B37F41C86B660008BCE3C /* ViewController.m in Sources */,
+				CA3B37F11C86B660008BCE3C /* AppDelegate.m in Sources */,
+				CA3B37EE1C86B660008BCE3C /* main.m in Sources */,
+				CA3B38291C86B949008BCE3C /* Channel1ViewController.m in Sources */,
+				CA3B38241C86B8D9008BCE3C /* HomeViewController.m in Sources */,
+				CA3B382E1C86BB48008BCE3C /* Channel2ViewController.m in Sources */,
+				CA3B38331C86BB61008BCE3C /* Channel3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3B37FE1C86B660008BCE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3B38071C86B660008BCE3C /* GenesisOriginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3B38091C86B660008BCE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3B38121C86B660008BCE3C /* GenesisOriginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3B38041C86B660008BCE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3B37E81C86B660008BCE3C /* GenesisOrigin */;
+			targetProxy = CA3B38031C86B660008BCE3C /* PBXContainerItemProxy */;
+		};
+		CA3B380F1C86B660008BCE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3B37E81C86B660008BCE3C /* GenesisOrigin */;
+			targetProxy = CA3B380E1C86B660008BCE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA3B37F51C86B660008BCE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3B37F61C86B660008BCE3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3B37FA1C86B660008BCE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3B37FB1C86B660008BCE3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3B38141C86B660008BCE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3B38151C86B660008BCE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3B38171C86B660008BCE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GenesisOrigin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisOrigin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA3B38181C86B660008BCE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GenesisOrigin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisOrigin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA3B381A1C86B660008BCE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenesisOriginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisOriginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesisOrigin.app/GenesisOrigin";
+			};
+			name = Debug;
+		};
+		CA3B381B1C86B660008BCE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenesisOriginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisOriginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesisOrigin.app/GenesisOrigin";
+			};
+			name = Release;
+		};
+		CA3B381D1C86B660008BCE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenesisOriginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisOriginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GenesisOrigin;
+			};
+			name = Debug;
+		};
+		CA3B381E1C86B660008BCE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenesisOriginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesis.app.GenesisOriginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GenesisOrigin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3B37E41C86B660008BCE3C /* Build configuration list for PBXProject "GenesisOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3B38141C86B660008BCE3C /* Debug */,
+				CA3B38151C86B660008BCE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3B38161C86B660008BCE3C /* Build configuration list for PBXNativeTarget "GenesisOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3B38171C86B660008BCE3C /* Debug */,
+				CA3B38181C86B660008BCE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA3B38191C86B660008BCE3C /* Build configuration list for PBXNativeTarget "GenesisOriginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3B381A1C86B660008BCE3C /* Debug */,
+				CA3B381B1C86B660008BCE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA3B381C1C86B660008BCE3C /* Build configuration list for PBXNativeTarget "GenesisOriginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3B381D1C86B660008BCE3C /* Debug */,
+				CA3B381E1C86B660008BCE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3B37E11C86B660008BCE3C /* Project object */;
+}
